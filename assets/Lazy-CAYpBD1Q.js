@@ -1,1 +1,0 @@
-import{j as e}from"./index-pnIW8gMQ.js";const t="/travelaja-landing-page/assets/pexels_videos_2257010%20(2160p)-CXvf5b-T.mp4",a=()=>e.jsx("video",{src:t,type:"video/mp4",autoPlay:!0,loop:!0,muted:!0,className:"w-full z-[-1] h-full object-cover absolute top-0 left-0",decoding:"async",loading:"lazy"});export{a as default};
