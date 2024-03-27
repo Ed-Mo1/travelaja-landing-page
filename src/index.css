@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+:is(button, input):is(:focus) {
+  outline: none;
+}
+
+ body section:not(:first-of-type) {
+   padding-block:5rem;
+}
+
+@layer base {
+  h1 {
+    @apply text-[2.074rem];
+  }
+  h2 {
+    @apply text-[1.728rem];
+  }
+  h3 {
+    @apply text-[1.44rem];
+  }
+  h4 {
+    @apply text-[1.2rem];
+  }
+  h5 {
+    @apply text-[1rem];
+  }
+  p {
+    @apply max-md:text-sm  text-base;
+  }
+}
+
+@layer utilities {
+  .big-title {
+    @apply max-lg:text-[2.488rem] max-md:text-[2rem]  text-[2.986rem];
+  }
+  .title {
+    @apply text-[2.488rem];
+  }
+  .small-text {
+    @apply text-[0.833rem];
+  }
+  .very-small-text {
+    @apply text-[0.694rem];
+  }
+}
