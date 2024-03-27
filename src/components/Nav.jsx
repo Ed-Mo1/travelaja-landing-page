@@ -80,10 +80,10 @@ const Nav = () => {
                     key={page.id}
                     to={page.path}
                     onClick={() => setShowNav(false)}
-                    className={({ isActive }) => `
+                    className={`
                     text-base 
                       text-title
-                    ${isActive && "font-bold"}`}
+                    ${page.id === 1 && "font-bold"}`}
                   >
                     {page.name}
                   </NavLink>

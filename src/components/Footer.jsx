@@ -21,7 +21,7 @@ const Footer = () => {
               <h5 className="font-bold mb-3">{title}</h5>
               <ul className="flex flex-col gap-3">
                 {links.map((link) => (
-                  <Link key={link} to={"/"}>
+                  <Link key={link} to='/travelaja-landing-page/'>
                     {link}
                   </Link>
                 ))}
